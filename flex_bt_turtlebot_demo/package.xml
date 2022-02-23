@@ -1,0 +1,23 @@
+<package>
+  <name>flex_bt_turtlebot_demo</name>
+  <version>0.1.2</version>
+  <description>
+    Meta-package for CNU Robotics CHRISLab Turtlebot specific Flexible Navigation System
+  </description>
+  <author>David Conner</author>
+  <maintainer email="robotics@cnu.edu">David Conner</maintainer>
+  <license>BSD</license>
+  <url type="bugtracker">https://github.com/CNURobotics/chris_ros_turtlebot/issues</url>
+  <url type="repository">https://github.com/CNURobotics/chris_ros_turtlebot</url>
+  <url type="website">https://github.com/CNURobotics/chris_ros_turtlebot</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <run_depend>navigation2</run_depend>
+  <run_depend>flex_bt_turtlebot_demo_flexbe_behaviors</run_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>

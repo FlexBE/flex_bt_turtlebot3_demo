@@ -1,0 +1,26 @@
+<package>
+  <name>flex_bt_turtlebot_demo_flexbe_behaviors</name>
+  <version>0.1.1</version>
+  <description>
+     Behaviors related to demonstration of flexible_navigation system using CHRISLab Kobuki Turtlebot
+  </description>
+  <maintainer email="robotics@cnu.edu">David Conner</maintainer>
+  <license>BSD</license>
+
+  <run_depend>rclpy</run_depend>
+  <run_depend>flex_nav_flexbe_states</run_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <flexbe_behaviors />
+  </export>
+
+</package>
