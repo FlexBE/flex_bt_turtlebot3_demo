@@ -116,6 +116,26 @@ After startup, all control is through the FlexBE App operator interface and RViz
 
 Whenever a plan is being executed, the `FlexBE` state machine transitions to a concurrent node that uses on line  planners to refine the plans as the robot moves, and also monitors the Turtlebot bumper status for collision.  The operator can terminate the execution early by selecting the appropriate transition in the `FlexBE UI`.  If this low level plan fails, the robot will request permission to initiate a recovery behavior; in `full` autonomy the system automatically initiates the recovery.
 
+## Publications
+
+This package allows duplication of the demonstrations in the following paper:
+
+- Joshua M. Zutell, David C. Conner, and Philipp Schillinger, ["Flexible Behavior Trees: In search of the mythical HFSMBTH for Collaborative Autonomy in Robotics"](https://doi.org/10.48550/arXiv.2203.05389), preprint, March 2022.
+
+Please use that publication for reference when using Flexible Behavior Trees.
+
+### Further Publications for FlexBE
+
+- Joshua Zutell, David C. Conner and Philipp Schillinger, "ROS 2-Based Flexible Behavior Engine for Flexible Navigation," to appear, SoutheastCon 2022.
+
+- Philipp Schillinger, Stefan Kohlbrecher, and Oskar von Stryk, ["Human-Robot Collaborative High-Level Control with Application to Rescue Robotics"](http://dx.doi.org/10.1109/ICRA.2016.7487442), IEEE International Conference on Robotics and Automation (ICRA), Stockholm, Sweden, May 2016.
+
+- Stefan Kohlbrecher et al. ["A Comprehensive Software Framework for Complex Locomotion and Manipulation Tasks Applicable to Different Types of Humanoid Robots."](http://dx.doi.org/10.3389/frobt.2016.00031) Frontiers in Robotics and AI 3 (2016): 31.
+
+- Alberto Romay et al., [“Collaborative autonomy between high-level behaviors and human operators for remote manipulation tasks using different humanoid robots,”](http://dx.doi.org/10.1002/rob.21671) Journal of Field Robotics, September 2016.
+
+---
+
 [FlexBE]: https://flexbe.github.io
 [FlexBE App]: https://github.com/CNURobotics/flexbe_app
 [FlexBE System]: https://github.com/CNURobotics/flexbe_behavior_engine
