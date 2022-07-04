@@ -102,6 +102,14 @@ start Operator Control Station (OCS) UI and onboard separately:
   * Starts the FlexBE behavior engine for robot control
 
 
+ >NOTE: after a new build , the Node JS software must be downloaded and installed before the first run.
+
+  `ros2 run flexbe_app nwjs_install`
+
+> This is only needed before first run after a fresh build (e.g. if you delete the install folder)
+
+
+
 ### FlexBE Operation
 
 After startup, all control is through the FlexBE App operator interface and RViz.  
@@ -118,7 +126,7 @@ First load the desired behavior through the `FlexBE Behavior Dashboard` tab.
      * Patrols and periodically moves to recharge station
      * This uses a battery status topic.  A simple simulated battery drain and charge can be run with:
        * `ros2 launch flex_bt_turtlebot_demo_bringup turtlebot_sim_battery.launch.py use_sim_time:=True `
-
+       * The FlexBE app will report missing data if the battery status is not running.
 
 Execute the behavior via the `FlexBE Runtime Control` tab.
 * The system requires the operator to input a `2D Nav Goal` via the `RViz` screen
