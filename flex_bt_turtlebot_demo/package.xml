@@ -1,0 +1,29 @@
+<package format="3">
+  <name>flex_bt_turtlebot_demo</name>
+  <version>0.1.2</version>
+  <description>
+    Demonstration package for flexible_behavior_trees using ROS 2 Navigation 2 and TurtleBot3 simulation
+  </description>
+  <author email="joshua.zutell.18@cnu.edu">jmz919</author>
+  <maintainer email="robotics@cnu.edu">David Conner</maintainer>
+  <license>Apache 2.0</license>
+  <url type="bugtracker">https://github.com/FlexBE/flex_bt_turtlebot_demo/issues</url>
+  <url type="repository">https://github.com/FlexBE/flex_bt_turtlebot_demo</url>
+  <url type="website">https://github.com/FlexBE/flex_bt_turtlebot_demo</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>navigation2</depend>
+  <depend>flexbe_behavior_engine</depend>
+  <depend>flexbe_app</depend>
+  <depend>flexible_behavior_trees</depend>
+  <depend>flex_bt_turtlebot_demo_bringup</depend>
+  <depend>flex_bt_turtlebot_demo_bt</depend>
+  <depend>flex_bt_turtlebot_demo_flexbe_behaviors</depend>
+  <depend>flex_bt_turtlebot_demo_flexbe_state</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
