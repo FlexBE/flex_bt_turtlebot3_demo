@@ -7,22 +7,14 @@ from ament_index_python.packages import get_package_share_directory
 
 
 flexbe_testing_dir = get_package_share_directory('flexbe_testing')
-flex_nav_states_test_dir = get_package_share_directory('flex_nav_flexbe_states')
+flex_bt_demo_states_test_dir = get_package_share_directory('flex_bt_turtlebot_demo_flexbe_states')
 
-path = flex_nav_states_test_dir + "/test"
+path = flex_bt_demo_states_test_dir + "/test"
 
-testcases  = path + "/get_path_state.test \n"
-testcases += path + "/log_path_state.test \n"
-testcases += path + "/pure_pursuit_state.test \n"
-testcases += path + "/timed_twist_state.test \n"
-testcases += path + "/timed_stop_state.test \n"
-testcases += path + "/clear_costmaps_state.test \n"
-testcases += path + "/follow_path_state.test \n"
-testcases += path + "/follow_topic_state.test \n"
-testcases += path + "/follow_planner_state.test \n"
-testcases += path + "/move_distance_state.test \n"
-testcases += path + "/rotate_angle_state.test \n"
-testcases += path + "/recovery_state.test"
+testcases  = path + "/charging_state.test \n"
+testcases += path + "/check_battery_life_state.test \n"
+testcases += path + "/get_waypoints_state.test \n"
+testcases += path + "/send_waypoints_state.test"
 
 
 def generate_launch_description():

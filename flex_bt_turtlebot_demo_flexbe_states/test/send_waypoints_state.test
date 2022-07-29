@@ -1,0 +1,9 @@
+path: flex_bt_turtlebot_demo_flexbe_states.send_waypoints_state
+class: SendWaypointsState
+
+import_only: true
+
+params:
+
+outcome:
+    done

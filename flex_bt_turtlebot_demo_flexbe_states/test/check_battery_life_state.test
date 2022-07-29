@@ -1,0 +1,10 @@
+path: flex_bt_turtlebot_demo_flexbe_states.check_battery_life_state
+class: CheckBatteryLifeState
+
+import_only: true
+
+params:
+    battery_threshold: 0.1
+
+outcome:
+    true

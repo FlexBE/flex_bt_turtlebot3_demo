@@ -1,0 +1,11 @@
+path: flex_bt_turtlebot_demo_flexbe_states.get_waypoints_state
+class: GetWaypointsState
+
+import_only: true
+
+params:
+    timeout:  10.0
+    topic: 'move_base_simple/goal'
+
+outcome:
+    done
