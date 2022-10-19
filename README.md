@@ -20,7 +20,7 @@ This quickly sets up the entire system in a separate workspace.
 
 2) Globally install the [ROBOTIS Turtlebot3] and [ROS 2 Navigation2] packages and their dependencies
 
-3) Install the [FlexBE App], [FlexBE System], and [Flexible Behavior Trees] into a ROS 2 workspace
+3) Install the [FlexBE App], [FlexBE System], [Flexible Navigation], and [Flexible Behavior Trees] into a ROS 2 workspace
 
 4) Make sure the [FlexBE App] is properly set up following directions there
 
@@ -166,6 +166,7 @@ Please use the following publication for reference when using Flexible Behavior 
 [FlexBE]: https://flexbe.github.io
 [FlexBE App]: https://github.com/FlexBE/flexbe_app
 [FlexBE System]: https://github.com/FlexBE/flexbe_behavior_engine
+[Flexible Navigation]: https://github.com/FlexBE/flexible_navigation
 [Flexible Behavior Trees]: https://github.com/FlexBE/flexible_behavior_trees
 [ROBOTIS Turtlebot3]: https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/
 [ROS 2]: https://docs.ros.org/en/foxy/index.html
