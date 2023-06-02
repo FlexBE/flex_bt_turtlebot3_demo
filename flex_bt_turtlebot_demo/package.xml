@@ -20,7 +20,7 @@
   <depend>flex_bt_turtlebot_demo_bringup</depend>
   <depend>flex_bt_turtlebot_demo_bt</depend>
   <depend>flex_bt_turtlebot_demo_flexbe_behaviors</depend>
-  <depend>flex_bt_turtlebot_demo_flexbe_state</depend>
+  <depend>flex_bt_turtlebot_demo_flexbe_states</depend>
 
   <export>
     <build_type>ament_cmake</build_type>
