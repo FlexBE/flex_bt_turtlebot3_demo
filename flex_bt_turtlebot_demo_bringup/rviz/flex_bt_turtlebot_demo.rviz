@@ -256,7 +256,7 @@ Visualization Manager:
                 Filter size: 10
                 History Policy: Keep Last
                 Reliability Policy: Reliable
-                Value: /local_costmap/footprint
+                Value: /local_costmap/published_footprint
               Value: true
             - Alpha: 0.8999999761581421
               Class: rviz_default_plugins/Map
