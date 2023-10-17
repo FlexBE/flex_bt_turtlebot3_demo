@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="Turtlebot3 Nav2 BT">
+
+	<executable package_path="flex_bt_turtlebot3_demo_flexbe_behaviors.turtlebot3_nav2_bt_sm" class="Turtlebot3Nav2BTSM" />
+	<tagstring></tagstring>
+	<author>Josh Zutell</author>
+	<date>Fri Feb 04 2022</date>
+	<description>
+		Using Flexible Navigation with a Behavior Tree to control the Turtlebot
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>

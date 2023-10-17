@@ -70,7 +70,7 @@ or
 
 ### Visualization
 
-  `ros2 launch flex_bt_turtlebot_demo_bringup rviz.launch.py  use_sim_time:=True`
+  `ros2 launch flex_bt_turtlebot3_demo_bringup rviz.launch.py  use_sim_time:=True`
 
   > NOTE: With AMCL localization, RViz and localization may generate errors until the "2D Pose Estimate" is set via RViz.
 
@@ -81,7 +81,7 @@ or
 
 Navigation2 Stack requires startup of planning and control nodes.
 
-`ros2 launch flex_bt_turtlebot_demo_bringup nav2_turtlebot.launch.py use_sim_time:=True`
+`ros2 launch flex_bt_turtlebot3_demo_bringup nav2_turtlebot3.launch.py use_sim_time:=True`
  * This starts the Navigation2 Stack with behavior server
  * Set use_sim_time to True for the simulation demonstration
  * As this is for a simulation demo, the parameter use_sim_time:=True
@@ -115,17 +115,17 @@ start Operator Control Station (OCS) UI and onboard separately:
 After startup, all control is through the FlexBE App operator interface and RViz.  
 
 First load the desired behavior through the `FlexBE Behavior Dashboard` tab.
-  * `Turtlebot Nav2 BT`
+  * `Turtlebot3 Nav2 BT`
      * Simplest example allows user to input goal via FlexBE state and RViz
 
-  * `Turtlebot Nav2 Multi-BTs`
+  * `Turtlebot3 Nav2 Multi-BTs`
      * Basic navigation using multiple separate BTs
 
-  * `Turtlebot Patrol`
+  * `Turtlebot3 Patrol`
      * Allows user to input location of charging station and multiple waypoints to patrol using RVIZ.
      * Patrols and periodically moves to recharge station
      * This uses a battery status topic.  A simple simulated battery drain and charge can be run with:
-       * `ros2 launch flex_bt_turtlebot_demo_bringup turtlebot_sim_battery.launch.py use_sim_time:=True `
+       * `ros2 launch flex_bt_turtlebot3_demo_bringup turtlebot_sim_battery.launch.py use_sim_time:=True `
        * The FlexBE app will report missing data if the battery status is not running.
 
 Execute the behavior via the `FlexBE Runtime Control` tab.

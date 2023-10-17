@@ -1,0 +1,34 @@
+<package format="3">
+  <name>flex_bt_turtlebot3_demo_flexbe_behaviors</name>
+  <version>0.1.1</version>
+  <description>
+     FlexBE behaviors related to demonstration of flexible_behavior_trees system using Navigation 2 and Turtlebot3 simulation
+  </description>
+  <author email="joshua.zutell.18@cnu.edu">jmz919</author>
+  <maintainer email="robotics@cnu.edu">David Conner</maintainer>
+  <license>Apache 2.0</license>
+  <url type="bugtracker">https://github.com/FlexBE/flex_bt_turtlebot3_demo/issues</url>
+  <url type="repository">https://github.com/FlexBE/flex_bt_turtlebot3_demo</url>
+  <url type="website">https://github.com/FlexBE/flex_bt_turtlebot3_demo</url>
+
+  <depend>rclpy</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <depend>flexbe_core</depend>
+  <depend>flexbe_states</depend>
+  <depend>flex_nav_flexbe_states</depend>
+  <depend>flex_bt_turtlebot3_demo_flexbe_states</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <flexbe_behaviors />
+  </export>
+
+</package>

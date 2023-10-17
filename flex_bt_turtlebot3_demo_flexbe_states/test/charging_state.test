@@ -1,0 +1,12 @@
+path: flex_bt_turtlebot3_demo_flexbe_states.charging_state
+class: ChargingState
+
+import_only: true
+
+params:
+    charger_topic:    'charger_topic'
+    battery_topic:    'battery_topic'
+    battery_threshold: 0.95
+
+outcome:
+    done
