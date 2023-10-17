@@ -65,7 +65,7 @@ or
 
    > From Nav2 instructions: After starting, the robot initially has no idea where it is. By default, Nav2 waits for you to give it an approximate starting position. Take a look at where the robot is in the Gazebo world, and find that spot on the map. Set the initial pose by clicking the “2D Pose Estimate” button in RViz, and then down clicking on the map in that location. You set the orientation by dragging forward from the down click.
 
-   > Note: 30-June-22 Humble release did not update static map layer, which prevented planning with AMCL.  Disable static layer in params/nav2_turtlebot_params.yaml if you have issues with AMCL.
+   > Note: 30-June-22 Humble release did not update static map layer, which prevented planning with AMCL.  Disable static layer in params/nav2_turtlebot3_params.yaml if you have issues with AMCL.
 
 
 ### Visualization
@@ -125,7 +125,7 @@ First load the desired behavior through the `FlexBE Behavior Dashboard` tab.
      * Allows user to input location of charging station and multiple waypoints to patrol using RVIZ.
      * Patrols and periodically moves to recharge station
      * This uses a battery status topic.  A simple simulated battery drain and charge can be run with:
-       * `ros2 launch flex_bt_turtlebot3_demo_bringup turtlebot_sim_battery.launch.py use_sim_time:=True `
+       * `ros2 launch flex_bt_turtlebot3_demo_bringup turtlebot3_sim_battery.launch.py use_sim_time:=True `
        * The FlexBE app will report missing data if the battery status is not running.
 
 Execute the behavior via the `FlexBE Runtime Control` tab.
